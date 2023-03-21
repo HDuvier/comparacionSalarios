@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salario</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./appSueldo.js"></script>
+
+</head>
+<body>
+    <header>
+        <h2>Aplicacion para comparar salario</h2>
+    </header>
+
+    <main>
+        <section class="inputValues">
+        <label for="inputValue">
+            <li>Valor actual</li> 
+        </label>
+        <input id="inputValue" type="number">
+
+        <label for="inputNewValue">
+            <li>Nuevo valor</li> 
+        </label>
+        <input id="inputNewValue" type="number">
+        </section>
+
+        <section class="formButtons">
+        <button type="button" onclick="porcentajeAumento(),primas(),cesantias(),interesesCesantias(),totalA(),totalB()">Valores</button>
+        </section>
+        <section class="outputValues">
+            <h3>Los valores del salario anterior son:</h3>
+            <ul>
+                <p id="prima"></p>
+                <p id="primaSem"></p>
+                <p id="cesantias"></p>
+                <p id="interesesCesan"></p>
+                <p id="sumatoriaA"></p>
+            </ul>
+            <h3>Los valores del nuevo salario son:</h3>
+            <ul>
+                <p id="valueUp"></p>
+                <p id="newPrima"></p>
+                <p id="newPrimaSem"></p>  
+                <p id="newCesantias"></p>
+                <p id="newInteresesCesan"></p>
+                <p id="sumatoriaB"></p>
+            </ul>
+            
+            
+            
+            
+            
+            
+           
+        </section>
+    </main>
+
+</body>
+</html>
