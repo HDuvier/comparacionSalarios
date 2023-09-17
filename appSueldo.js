@@ -113,3 +113,8 @@ function interesesCesant (i){
 function sumatoria(j,k){
     return j+k;
 }
+
+function borrarValores(){
+    document.getElementById("inputValue").value="";
+    document.getElementById("inputNewValue").value="";
+}
